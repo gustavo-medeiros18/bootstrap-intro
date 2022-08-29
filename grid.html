@@ -65,18 +65,37 @@
     </div>
 
     <div class="container">
-      Row containing a column with costum width
+      Column width can be set manually.
 
       <div class="row">
-        <div class="col" style="background-color: blue;">
+        <div class="col-2" style="background-color: blue;">
           Column 1
         </div>
 
-        <div class="col-6" style="background-color: green;">
+        <div class="col-8" style="background-color: green;">
           Column 2
         </div>
 
-        <div class="col" style="background-color: orangered;">
+        <div class="col-2" style="background-color: orangered;">
+          Column 3
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      If you set the width of just one column of the row,
+      all the simblings will be resized accordingly.
+
+      <div class="row">
+        <div class="col-md" style="background-color: blue;">
+          Column 1
+        </div>
+
+        <div class="col-md" style="background-color: green;">
+          Column 2
+        </div>
+
+        <div class="col-md" style="background-color: orangered;">
           Column 3
         </div>
       </div>
